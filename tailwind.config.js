@@ -1,11 +1,8 @@
 module.exports = {
   content: [
-    './src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-    darkMode: true,
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
-    colors: {
-      'blue': '#0284c7'
-    },
     extend: {},
   },
   plugins: [],
