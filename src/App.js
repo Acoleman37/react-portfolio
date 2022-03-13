@@ -7,14 +7,12 @@ import Skills from "./components/Skills";
 
 export default function App() {
   return (
-    <div>
-      <main className="">
-        <Navbar />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-      </main>
-    </div>
+    <main>
+      <Navbar />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+    </main>
   );
 }
