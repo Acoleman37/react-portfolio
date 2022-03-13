@@ -4,15 +4,19 @@ import Headshot from '../../assets/img/Headshot.jpg'
 export default function About() {
     return (
         <section id="about" className="bg-black">
-            <div className="flex px-8 py-5">
-                <div className="lg:max-w-lg lg:w-full md:w-full w-full ">
-                    <img className="object-scale-down" alt="headshot" src={Headshot} />
+            <div class="flex justify-center">
+                <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-slate-900 shadow-lg">
+                <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src={Headshot} alt="headshot" />
+                    <div class="p-6 flex flex-col justify-start">
+                        <h5 class="text-green-400 text-xl font-medium mb-2">About Me</h5>
+                        <p class="text-white text-base mb-4">
+                        My name is Alec Coleman. I'm a graduate from UCLA Software engineering bootcamp with fundamental knowledge of software design, development and testing. Seeking to utilize a broad educational background with excellent analytical, technical, and programming skills to thrive as a junior software developer. I was born and raised in Southern California and previously worked in real estate in Los Angeles and in the US Virgin Islands.
+                        </p>
+                    </div>
                 </div>
-                <p className="text-white flex px-5">
-                    Hello, My name is Alec Coleman. I'm a graduate from UCLA Software engineering bootcamp with fundamental knowledge of software design, development and testing. Seeking to utilize a broad educational background with excellent analytical, technical, and programming skills to thrive as a junior software developer. I was born and raised in Southern California and previously worked in real estate in Los Angeles and in the US Virgin Islands.
-                </p>
             </div>
         </section>
     );
 }
+
 
