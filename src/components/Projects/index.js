@@ -1,6 +1,5 @@
 import React from 'react';
 import { CodeIcon } from "@heroicons/react/solid";
-import Weather from '../../assets/img/weather 2.jpeg'
 
 export default function Projects() {
   return (
