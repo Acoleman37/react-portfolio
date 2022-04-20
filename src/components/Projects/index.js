@@ -24,7 +24,7 @@ export default function Projects() {
               <img
               alt="gallery"
               className="absolute inset-0 w-full h-full object-cover object-center"
-              src={project.image}
+              src={require(`../../assets/img/${project.image}`)}
               />
               <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
               <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
@@ -52,7 +52,7 @@ export const projects =
     subtitle: "JavaScript & server-side API's",
     description:
       "Your new favorite weather app!",
-    image: "../../assets/img/weather 2.jpeg",
+    image: "weather2.jpeg",
     link: "https://acoleman37.github.io/weather-application/",
   },
   {
@@ -60,7 +60,7 @@ export const projects =
     subtitle: "JavaScript, Node.js & Express",
     description:
       "Notes to help you stay on track! ",
-    image: "../../assets/img/note.jpeg",
+    image: "note.jpeg",
     link: "https://mysterious-everglades-82667.herokuapp.com/",
   },
   {
@@ -68,7 +68,7 @@ export const projects =
     subtitle: "JavaScript",
     description:
       "Be more productive with taskmaster!",
-    image: "../../assets/img/task.jpeg",
+    image: "task.jpeg",
     link: "https://acoleman37.github.io/taskmaster-pro/",
   },
   {
@@ -76,7 +76,7 @@ export const projects =
     subtitle: "React",
     description:
       "A react app built for a photographers portfolio",
-    image: "../../assets/img/photo.jpeg",
+    image: "photo.jpeg",
     link: "https://acoleman37.github.io/photo-port/",
   },
   {
@@ -84,7 +84,7 @@ export const projects =
     subtitle: "JavaScript, PWA, IDB",
     description:
       "The perfect finance caluclator to help keep track of your spending",
-    image: "../../assets/img/Finance.jpeg",
+    image: "Finance.jpeg",
     link: "shrouded-falls-23256.herokuapp.com/",
   },
   {
@@ -92,7 +92,7 @@ export const projects =
     subtitle: "JavaScript",
     description:
       "A quick and easy way to get complex passwords",
-    image: "../../assets/img/Password.jpeg",
+    image: "Password.jpeg",
     link: "https://acoleman37.github.io/password-generator/",
   },
 ];
