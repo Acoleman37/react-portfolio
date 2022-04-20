@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.5df67b4c.css",
-    "main.js": "/react-portfolio/static/js/main.a10abe69.js",
+    "main.js": "/react-portfolio/static/js/main.2f54ddce.js",
     "static/js/787.4449c256.chunk.js": "/react-portfolio/static/js/787.4449c256.chunk.js",
     "static/media/Headshot.jpeg": "/react-portfolio/static/media/Headshot.b5d9998032c14186bc3d.jpeg",
     "static/media/Headshot3.jpg": "/react-portfolio/static/media/Headshot3.842a7f7884b7ffc33b4c.jpg",
@@ -11,14 +11,14 @@
     "static/media/task.jpeg": "/react-portfolio/static/media/task.35e8e25bdfa9b53df0e0.jpeg",
     "static/media/Password.jpeg": "/react-portfolio/static/media/Password.dfbeb696652874c21da6.jpeg",
     "static/media/note.jpeg": "/react-portfolio/static/media/note.4614f240ffbc6cf06a97.jpeg",
-    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.684cef860d6715902b1b.pdf",
+    "static/media/AlecColeman.pdf": "/react-portfolio/static/media/AlecColeman.5d478e6eb3bd94cfe6c7.pdf",
     "index.html": "/react-portfolio/index.html",
     "main.5df67b4c.css.map": "/react-portfolio/static/css/main.5df67b4c.css.map",
-    "main.a10abe69.js.map": "/react-portfolio/static/js/main.a10abe69.js.map",
+    "main.2f54ddce.js.map": "/react-portfolio/static/js/main.2f54ddce.js.map",
     "787.4449c256.chunk.js.map": "/react-portfolio/static/js/787.4449c256.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5df67b4c.css",
-    "static/js/main.a10abe69.js"
+    "static/js/main.2f54ddce.js"
   ]
 }
