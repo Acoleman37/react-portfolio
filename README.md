@@ -1,4 +1,4 @@
-# Employee Tracker
+#React Portfolio
 ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/Acoleman37/employee-db?style=flat&logo=appveyor)
 ## Description
   
