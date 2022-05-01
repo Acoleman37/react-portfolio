@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRightIcon } from "@heroicons/react/solid";
-import Pdf from "../../assets/Resume.pdf";
+import Pdf from "../../assets/AlecColeman.pdf";
 
 export default function Navbar() {
     return (
