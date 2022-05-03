@@ -49,13 +49,13 @@ export default function ContactForm() {
                     </p>
                     <div className="relative mb-4">
                         <label htmlFor="name" className="leading-7 text-sm text-blue-500">Name</label>
-                        <input type="text" id="name" name="name" className="w-full bg-white rounded border border-blue-500 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" defaultValue={name} onBlur={handleChange} />
+                        <input type="text" id="name" name="name" className="w-full bg-white rounded border border-blue-500 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-black-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" defaultValue={name} onBlur={handleChange} />
                     </div>
                     <div className="relative mb-4">
                         <label htmlFor="email" className="leading-7 text-sm text-blue-500">
                         Email
                         </label>
-                        <input type="email" id="email" name="email" className="w-full bg-white rounded border border-blue-500 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" defaultValue={email} onBlur={handleChange} />
+                        <input type="email" id="email" name="email" className="w-full bg-white rounded border border-blue-500 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-black-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" defaultValue={email} onBlur={handleChange} />
                     </div>
                     <div className="relative mb-4">
                         <label htmlFor="message" className="leading-7 text-sm text-blue-500">Message</label>
@@ -77,7 +77,7 @@ export default function ContactForm() {
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                             EMAIL
                             </h2>
-                            <a href="contact" className="text-blue-500 leading-relaxed">Aleccoleman123@yahoo.com</a>
+                            <a href="contact" className="text-blue-500 leading-relaxed">Acoleman37@gmail.com</a>
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                             PHONE
                             </h2>
