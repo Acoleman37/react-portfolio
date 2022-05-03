@@ -40,7 +40,7 @@ export default function ContactForm() {
         <section id="contact" className="bg-black">
             <div class="flex justify-center">
                 <div class="flex px-5 py-5 flex-col md:flex-row md:max-w-xl rounded-lg bg-gray-800 shadow-lg ">
-                    <form name="contact" onSubmit={handleSubmit} className="lg:w-1/2 md:w-1/2 flex flex-col md:py-8 mt-8 md:mt-0" data-netlify="true">
+                    <form name="contact" netlify netlify-honeypot="bot-field" hidden onSubmit={handleSubmit} className="lg:w-1/2 md:w-1/2 flex flex-col md:py-8 mt-8 md:mt-0" data-netlify="true">
                     <h2 className="text-white text-center sm:text-4xl text-3xl mb-1 font-medium title-font">
                     Contact Me
                     </h2>
