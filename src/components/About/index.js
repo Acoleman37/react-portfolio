@@ -10,7 +10,7 @@ export default function About() {
                     <div class="p-6 flex flex-col justify-start">
                         <h5 class="text-green-400 text-center text-xl font-medium mb-2">About Me</h5>
                         <p class="text-white text-center text-base mb-4">
-                        Hi, I'm Alec Coleman. I'm a front-end software engineer with fundamental knowledge of design, development and testing. Seeking to utilize a broad educational background with excellent analytical, technical, and programming skills to thrive as a junior software developer. I was born and raised in Southern California and previously worked in real estate in Los Angeles.
+                        Hi, I'm Alec Coleman. I'm a full stack software engineer with fundamental knowledge of design, development and testing. I am seeking to utilize a broad educational background with excellent analytical, technical, and programming skills to thrive as a junior full stack software developer. I was born and raised in Southern California and previously worked in real estate in Los Angeles.
                         </p>
                     </div>
                 </div>
